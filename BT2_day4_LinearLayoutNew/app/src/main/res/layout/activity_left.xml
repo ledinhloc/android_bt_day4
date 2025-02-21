@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:weightSum="10"
+    tools:context=".LeftActivity">
+
+    <!-- Hàng 1 -->
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#00BCD4"
+            android:text="01"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:textColor="#FF5722"
+            android:textSize="32sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#8BC34A"
+            android:text="02"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:textColor="#FF5722"
+            android:textSize="32sp" />
+
+    </LinearLayout>
+
+    <!-- Hàng 2 -->
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="3"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#CE0D4F"
+            android:text="03"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:textColor="#FF5722"
+            android:textSize="32sp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#8BC34A"
+            android:text="04"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:textColor="#FF5722"
+            android:textSize="32sp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#3F51B5"
+            android:text="05"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:textColor="#FF5722"
+            android:textSize="32sp" />
+
+
+    </LinearLayout>
+
+    <!-- Hàng 3 -->
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="4"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="4"
+            android:background="#FF5722"
+            android:text="06"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:textColor="#673AB7"
+            android:textSize="32sp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="#8BC34A"
+            android:text="06"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:textColor="#FF5722"
+            android:textSize="32sp" />
+    </LinearLayout>
+
+    <!-- Hàng 4 -->
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="#FFEB3B"
+        android:text="07"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:textColor="#FF5722"
+        android:textSize="32sp" />
+
+</LinearLayout>
